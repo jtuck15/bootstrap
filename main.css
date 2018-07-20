@@ -1,5 +1,6 @@
 body {
     font-family: 'Chela One', cursive;
+    /*font-family: 'Roboto', sans-serif;*/
 }
 
 /*Containers*/
@@ -52,20 +53,6 @@ body {
 .content-container {
     padding-bottom: 75px;
     padding-top: 40px;
-}
-
-
-
-.quotes-container{
-    
-}
-
-.features-container {
-    
-}
-
-.favourites-container{
-    
 }
 
 /*Navbar*/
@@ -162,6 +149,7 @@ body {
     color: #adabab;
 }
 
+
 .block-divider {
     width: 75%;
     height: 5px;
@@ -231,6 +219,10 @@ btn.btn-lg.btn--cta.btn--red {
     margin-bottom: 25px;
 }
 
+.monthly-favourties .page-header {
+    margin-bottom: 25px;
+}
+
 .block-divider-quotes {
     width: 15%;
     height: 3px;
@@ -243,6 +235,14 @@ btn.btn-lg.btn--cta.btn--red {
     height: 3px;
     border: 0;
     background-color: white;
+}
+
+.block-divider-favourites {
+    width: 15%;
+    height: 3px;
+    border: 0;
+    background-color: white;
+    margin-bottom: 40px;
 }
 
 /*Quotes*/
@@ -289,6 +289,8 @@ h2.text-uppercase.text-center.monthly-color {
 
 table>thead>tr {
     background-color: white;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 table>tbody>tr:nth-of-type(2) {
